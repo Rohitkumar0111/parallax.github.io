@@ -1,0 +1,64 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    font-size: 20px;
+    font-family: "lato",sans-serif;
+    font-weight: 400;
+    line-height: 0.8cm;
+    color: #666;
+}
+.pimg1 {
+  background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg);
+  min-height: 100%;
+
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pimg2{
+    background-image: url(https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171_960_720.jpg);
+    min-height: 100%;
+}
+.pimg3{
+    background-image: url(https://cdn.pixabay.com/photo/2017/04/09/09/56/avenue-2215317_960_720.jpg);
+    min-height: 100%;
+}
+.pimg1,.pimg2,.pimg3{
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.ptxt{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: wheat;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.textbg{
+    background: black;
+    color: wheat;
+    padding: 10px;
+}
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+.nature_notes {
+    background-color: black;
+    color: wheat;
+}
+.brief{
+    background-color: black;
+    color: wheat;
+}
+.Summary{
+    background-color: black;
+    color: wheat;
+}
